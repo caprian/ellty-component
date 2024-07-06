@@ -29,8 +29,7 @@
     .checkmark.checked {
         border: 1px solid #5087F8 !important;
         background-color: #5087F8 !important;
-        opacity: 1 !important;
-        
+        opacity: 1 !important;       
     }
 }
 
