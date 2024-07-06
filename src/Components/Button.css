@@ -1,0 +1,33 @@
+.button {
+    background-color: #FFCE22;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:#FFD84D
+}
+.button:active{
+    background-color:#FFCE22;
+    cursor: default;
+}
+.button-container{
+    height: 60px;
+    padding: 10px 15px 10px 15px;
+}
+
+.button-label{
+    width: 39px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #1F2128;
+}

@@ -1,0 +1,30 @@
+.main-container {
+    left: 185px;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 368.4px;
+    height: 326px;
+    position: absolute;
+    top: 85px;
+    padding: 10px 0px;
+    box-shadow: 0 8px 15px rgba(20, 20, 20, 0.12), 0 0 4px rgba(20, 20, 20, 0.10);
+}
+
+.page-borders {
+    border: none;
+    border-top: 0.7px solid #CDCDCD;
+    width: 340px;
+    margin: 0;
+}
+
+.border-container{
+    padding: 10px 15px 10px 15px;
+    height: 20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}

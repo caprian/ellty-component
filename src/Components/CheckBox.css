@@ -1,0 +1,143 @@
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px 8px 22px;
+    cursor: pointer;
+    max-height: 26px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.checkbox-container:hover{
+    .checkmark:not(.checkmark.checked){
+        border: 1px solid #BDBDBD;
+        opacity: 1;
+    }
+    .checkmark svg{
+    stroke: #E3E3E3;
+    opacity: 1;
+    }
+}
+.checkbox-container.checked{
+    .checkmark.checked {
+        border: 1px solid #5087F8;
+        background-color: #5087F8;
+        opacity: 1;
+    }
+}
+
+.checkbox-container.checked:hover{
+    .checkmark.checked {
+        border: 1px solid #5087F8 !important;
+        background-color: #5087F8 !important;
+        opacity: 1 !important;
+    }
+}
+
+.checkbox-container:active:not(.checkbox-container.checked){
+    .checkmark{
+        border: 1px solid #BDBDBD;
+        opacity: 1;
+    }
+    .checkmark svg{
+    stroke: #878787;
+    opacity: 1;
+    }
+}
+
+.checkbox-icon-container:active:not(.checkbox-icon-container.checked){
+    .checkmark:not(.checkmark.checked){
+        border: 1px solid #BDBDBD;
+        opacity: 1;
+    }
+    .checkmark svg:not(.checkmark.checked){
+    stroke: #878787;
+    opacity: 1;
+    }
+}
+.checkbox-label {
+    width: 64px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #1F2128;
+}
+
+.checkbox-icon-container {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.checkmark {
+    width: 21.4px;
+    height: 21.4px;
+    color: #ffffff;
+    border: 1px solid #CDCDCD;
+    border-radius: 6px;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkmark.checked {
+    transition: background-color 0s, border-color 0s, opacity 0s;
+    transition-delay: 0.12s;
+  }
+  
+  .checkmark.checked:not(.checkbox-container.checked):not(.checkmark.checked:hover) {
+    background-color: #2469F6;
+    border: 1px solid #2469F6;
+    opacity: 1;
+    .checkbox-icon-container:active{
+        .checkmark svg{
+            stroke: #ffffff;
+            }
+    }
+    
+  }
+.checkmark--svg {
+    width: 100%;
+    height: 100%;
+    stroke: #ffffff;
+    stroke-width: 1;
+    border: none;
+}
+
+.checkmark.checked svg {
+    stroke-dashoffset: 0;
+    border: none;
+    opacity: 1;
+}
+
+.checkmark__check {
+	fill: none;
+}
+/* .checkmark.checked:hover{
+    border: 1px solid #5087F8;
+    background-color: #5087F8;
+} */
+
+.checkmark:active{
+    box-shadow: 0px 0px 5px #CDCDCD, 0 0 4px #CDCDCD;
+    border: none;
+}
+
+.checkmark.checked:active{
+    box-shadow: 0px 0px 5px #CDCDCD, 0 0 4px #CDCDCD;
+    border: none;
+}
+
+.checkbox-container:active{
+    .checkmark{
+        box-shadow: 0px 0px 5px #CDCDCD, 0 0 4px #CDCDCD;
+    }
+    .checkmark.checked{
+        box-shadow: 0px 0px 5px #CDCDCD, 0 0 4px #CDCDCD;
+    }
+}
+
+
