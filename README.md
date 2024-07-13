@@ -1,9 +1,6 @@
 # Ellty-component
 =====================
 
-## Assignment for Ellty Hiring Process
---------------------------------------
-
 This repository contains a simple React component that matches the given Figma design with UI/UX functionality. The component features multiple checkboxes with hover and active stylings.
 
 ### Component Description
